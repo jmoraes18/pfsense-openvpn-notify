@@ -104,7 +104,7 @@ A forma mais simples de obter o Chat ID é usando o bot **[@userinfobot](https:/
 2. Compartilhe o grupo desejado com o bot (botão **Group** no menu)
 3. O bot retornará o `Id` do grupo — geralmente começa com `-100`
 
-> 💡 O Chat ID de grupos começa com `-` (negativo). Exemplo: `-1001861964837`
+> 💡 O Chat ID de grupos começa com `-` (negativo). Exemplo: `-100xxxxxxxxxx`
 
 ---
 
