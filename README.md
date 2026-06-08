@@ -13,6 +13,16 @@ Sistema de notificação de eventos OpenVPN para pfSense via **Telegram** e **e-
 
 ---
 
+## ⚡ Como funciona
+
+Diferente de abordagens baseadas em leitura de log via cron,
+os scripts se integram diretamente aos hooks nativos do OpenVPN
+(client-connect e client-disconnect). No momento em que um cliente
+conecta ou desconecta, o evento dispara o script imediatamente —
+sem polling, sem delay, sem overhead desnecessário.
+
+---
+
 ## ✨ Funcionalidades
 
 | Funcionalidade | Descrição |
